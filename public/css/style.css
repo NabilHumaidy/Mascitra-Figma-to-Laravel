@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.cdnfonts.com/css/satoshi');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+.navbar {
+    min-height: 11vh;
+}
+
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+    transition: background-color 0.05s ease-in-out;
+}
+
+.navbar.scrolled {
+    background-color: rgba(255, 255, 255, 0.7);
+    /* Ganti dengan warna transparan yang diinginkan */
+}
+
+.circlehead {
+    position: relative;
+    top: 0;
+    width: 100%;
+    height: 107vh; /* Atur sesuai kebutuhan */
+    z-index: -1; /* Menetapkan z-index agar berada di atas elemen lain */
+}
+
+.sectionheader-overlay {
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+}
+
+.inter {
+    font-family: 'Inter', sans-serif;
+}
+
+.raleway {
+    font-family: 'Raleway', sans-serif;
+}
+
+.roboto {
+    font-family: 'Roboto', sans-serif;
+}
+
+.jakartasans {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
+
+.satoshi {
+    font-family: 'Satoshi', sans-serif;
+}
+
+.asap {
+    font-family: 'Asap', sans-serif;
+}
+
+.lato {
+    font-family: 'Lato', sans-serif;
+}
+
+.poppins {
+    font-family: 'Poppins', sans-serif;
+}
+
+.btnBuat {
+    background-color: orangered;
+    color: white;
+    border-radius: 20px;
+    padding: 5px 15px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 200;
+}
+
+.btnBuat:hover {
+    background-color: #ff6a00;
+    color: white;
+}
+
+.btnService {
+    background-color: rgba(253, 53, 9, 0.85);
+    padding: 11.2px 24px;
+    color: white;
+    border-radius: 19px;
+    box-shadow: 0px 25px 30px 0px rgba(0, 65, 232, 0.10);
+}
+
+.btnService:hover {
+    background-color: #ff6a00;
+    color: white;
+}
+
+.orderBtn {
+    background-color: white;
+    border-radius: 8px;
+    border: none;
+}
+
+.orderBtn:hover {
+    background-color: rgb(216, 216, 216)
+}
+
+.orangebar {
+    width: 68.5px;
+    height: 11.5px;
+    flex-shrink: 0;
+    border-radius: 18.5px;
+    background: #FF6422;
+    margin: auto;
+}
+
+.orderSelection {
+    border-radius: 24px;
+    background-color: #FF6422;
+    color: white;
+}
+
+
+.canvasporto {
+    background-color: #F2F2F2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Optional, sesuaikan dengan kebutuhan */
+}
+
+.canvasporto img {
+    max-width: 100%; /* Optional, untuk memastikan gambar tidak melebihi lebar container */
+    max-height: 100%; /* Optional, untuk memastikan gambar tidak melebihi tinggi container */
+}
+
+.serviceimagesecond {
+    width: 525px;
+    height: 230px;
+    object-fit: cover;
+    border-radius: 24px;
+}
+
+.serviceimageirmary {
+    width: 525px;
+    height: 480px;
+    object-fit: cover;
+    border-radius: 24px;
+}
+
+.card {
+    border: none;
+}
